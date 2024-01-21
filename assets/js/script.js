@@ -12,3 +12,19 @@ $(document).ready(function() {
 // console logging time in an hourly format
     var currentHour = dayjs().format('H');
     console.log(currentHour); 
+
+    for (var hour = 9; hour <= 21; hour++) {
+        var blockHour = hour;
+    
+    if (blockHour < parseInt(currentHour)) {
+        console.log(blockHour + ' is prior to the current time');
+        $('.time-block:eq(' + (hour - 9) + ')').toggleClass('past');
+    } else if (blockHour === parseInt(currentHour)) {
+        console.log(blockHour + ' is the current time');
+        $('.time-block:eq(' + (hour - 9) + ')').toggleClass('present');
+    } else {
+        console.log(blockHour + ' is after the current time');
+        $('.time-block:eq(' + (hour - 9) + ')').toggleClass('future');
+    }
+    }
+    

@@ -15,9 +15,10 @@ NA
 Navigate to the website and enter data into your required hour slot. Click the save button for the data to be saved. Reload the page and the data will still be there.
 
 ## Screenshot
-![screenshot showing the webpage in use](assets/Images/screenshot1.jpg) 
 
-![screenshot showing the webpage in use](assets/Images/screenshot2.jpg) 
+![screenshot showing the webpage in use](assets/images/screenshot1.jpg) 
+
+![screenshot showing the webpage in use](assets/images/screenshot2.jpg) 
     
 ## Credits
 

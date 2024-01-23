@@ -6,8 +6,8 @@ $(document).ready(function() {
     var currentHour = dayjs().format('H');
     console.log(currentHour);
 
-    // Loop through hours from 9 to 21 (inclusive)
-    for (var hour = 9; hour <= 21; hour++) {
+    // Loop through hours from 9 to 17 (inclusive)
+    for (var hour = 9; hour <= 17; hour++) {
         var blockHour = hour;
         // Create a key for each hour in local storage
         var storageKey = "hour-" + hour;

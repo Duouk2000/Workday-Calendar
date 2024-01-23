@@ -15,13 +15,15 @@ NA
 Navigate to the website and enter data into your required hour slot. Click the save button for the data to be saved. Reload the page and the data will still be there.
 
 ## Screenshot
+
 ![screenshot showing the webpage in use](assets/images/screenshot1.jpg) 
+
 ![screenshot showing the webpage in use](assets/images/screenshot2.jpg) 
     
 ## Credits
 
 - Websites used to review and test javascript commands & tutorials - [w3schools](https://www.w3schools.com/html/default.asp) /
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML) / [DayJS](https://day.js.org/docs/en/get-set/hour) / [JQuery](https://api.jquery.com/)
 
 - Websites reviewed to help generate a badge - [Shields.io](https://shields.io/badges) & [lukas-h github](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
